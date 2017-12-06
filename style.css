@@ -49,10 +49,38 @@ a {color:#FFFFFF;}
   position: relative;
   top: 0.8em;
   margin: 0;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 700;
-}
 
+}
+.accordion-container .aticv{
+  font-size: 26px;
+  color:red;
+}
+.box-rf{
+        position: fixed;
+        top:150px;
+        left:0px;
+        width: 150px;
+        height:100px;
+      }
+.box-rf a{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.box-lt a{
+  display: block;
+  width: 100%;
+}
+.box-lt{
+        position: fixed;
+        bottom:350px;
+        right:0px;
+        width: 150px;
+        height: 200px;
+        background: green;
+      }    
 .accordion a {
   position: relative;
   display: block;
